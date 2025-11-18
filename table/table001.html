@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>table test</title>
+  <meta name="description" content="table test">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../css/prj/core.css">  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sumana">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Palanquin Dark">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Otomanopee One">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source Code Pro">
+  <link rel="stylesheet" href="https://fontlibrary.org//face/go-mono" media="screen" type="text/css"/>
+</head>
+<body>
+  <header>
+    <h1>grox.info table style example</h1>
+    <nav>
+		<ul class="navlist">
+    		<li><a href="/">Home</a></li>
+			<li><a href="#">nav 2</a></li>
+		</ul>
+	</nav>
+  </header>
+    <main>
+        <p>Main paragraph</p>
+        <section>
+        <h1>Examples of HTML tables as data structures</h1>
+
+        <h2>an empty array</h2>
+        <table>
+          <tr><td></td></tr>
+        </table>
+
+        <h2>an array with 3 elements</h2>
+        <table class="table table-bordered">
+          <tr>
+            <td>1</td>
+            <td>true</td>
+            <td>three</td>
+          </tr>
+        </table>
+
+        <h2>nested arrays</h2>
+        <table class="table table-bordered">
+          <tr>
+            <td>
+              <table class="table table-bordered">
+                <tr>
+                  <td>1</td>
+                  <td>true</td>
+                  <td>three</td>
+                </tr>
+              </table>
+            </td>
+            <td>
+              <table class="table table-bordered">
+                <tr>
+                  <td>4</td>
+                  <td>five</td>
+                  <td>0x6</td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+        </table>
+     
+        <h2>an object with an array</h2>
+        <table class="table table-bordered">
+          <thead>
+            <tr>
+              <th>animals</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <table class="table table-bordered">
+                  <tr>
+                    <td>panda</td>
+                    <td>crocodile</td>
+                    <td>walrus</td>
+                    <td>orca</td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      
+        <h2>a single object with 2 properties</h2>
+        <table class="table table-bordered">
+          <thead>
+            <tr>
+              <th>width</th>
+              <th>height</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1920</td>
+              <td>1080</td>
+            </tr>
+          </tbody>
+        </table>
+      
+        <h2>multiple objects with 2 properties each</h2>
+        <table class="table table-bordered">
+          <thead>
+            <tr>
+              <th>width</th>
+              <th>height</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1920</td>
+              <td>1080</td>
+            </tr>
+            <tr>
+              <td>720</td>
+              <td>680</td>
+            </tr>
+            <tr>
+              <td>3840</td>
+              <td>2160</td>
+            </tr>
+          </tbody>
+        </table>
+      
+        <h2>nested objects</h2>
+        <table class="table table-bordered">
+          <thead>
+            <tr>
+              <th>portfolio-date</th>
+              <th>portfolio-contents</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>2020-08-17</td>
+              <td>
+                <table class="table table-bordered">
+                  <thead>
+                    <tr>
+                      <th>name</th>
+                      <th>width</th>
+                      <th>height</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>image1</td>
+                      <td>1920</td>
+                      <td>1080</td>
+                    </tr>
+                    <tr>
+                      <td>image2</td>
+                      <td>760</td>
+                      <td>1020</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <td>2020-10-11</td>
+              <td>
+                <table class="table table-bordered">
+                  <thead>
+                    <tr>
+                      <th>name</th>
+                      <th>width</th>
+                      <th>height</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>image99</td>
+                      <td>1920</td>
+                      <td>1080</td>
+                    </tr>
+                    <tr>
+                      <td>image76</td>
+                      <td>80</td>
+                      <td>80</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+      </section>
+    </main>
+  <aside>		
+		<header>
+			<h1>Aside</h1>
+			<nav>
+				<ul class="navlist">
+					<li><a href="#">Link1</a></li>
+					<li><a href="#">Link2</a></li>
+				</ul>
+			</nav>
+		</header>
+		<ul class="asidelist">
+			<li>Aside item</li>
+			<li>Aside item</li>
+			<li>Aside item</li>
+		</ul>			
+	</aside>
+	<footer>	
+		<small>Copyright &copy; <time datetime="2014">2021</time> grox LLC</small>
+	</footer>
+</body>
+</html>

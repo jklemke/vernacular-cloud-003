@@ -1,0 +1,28 @@
+/* table.css contains styles for HTML <table> elements 
+   ========================================================================== */
+
+table 
+{
+   width: 98%; 
+   margin-left: 1%;
+   margin-right: 1%;
+   border-collapse: collapse;
+} 
+
+table, td, th
+{
+    border: 1px solid gainsboro;
+    margin-right: 1%;
+}
+
+td, th
+{
+    text-align: left;
+    vertical-align: top;
+    padding: 0.25% 0.25% 0.25% 0.25%;
+}
+
+table table{
+    margin-left: 0.25%;
+    margin-right: 0.25%;
+}
