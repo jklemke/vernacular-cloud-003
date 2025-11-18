@@ -1,3 +1,6 @@
+# Notepad++ backups
+*.bak
+
 # Logs
 logs
 *.log
