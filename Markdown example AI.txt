@@ -1,0 +1,33 @@
+---
+# --- SKOS LABELS ---
+aliases: 
+  - ML
+  - Automated Learning
+  - Predictive Modeling
+
+# --- SKOS DOCUMENTATION ---
+definition: "A subset of artificial intelligence that focuses on building systems that learn from data rather than following explicit instructions."
+scopeNote: "Use this concept when referring to the algorithmic processes, not the general concept of AI."
+
+# --- SKOS RELATIONS (The Hierarchy) ---
+# We use WikiLinks in YAML so they are clickable in Obsidian AND parsable
+broader: [[Artificial Intelligence]]
+narrower: [[Deep Learning]], [[Reinforcement Learning]]
+related: [[Big Data]], [[Neural Networks]]
+
+# --- EXTERNAL MAPPINGS (Semantic Web) ---
+exactMatch: "http://www.wikidata.org/entity/Q2539"
+---
+
+# Machine Learning
+
+## Context
+Machine learning is rapidly evolving. While often used interchangeably with **[[Artificial Intelligence]]**, it is technically a child concept. 
+
+## Usage in this Vault
+We are using this term to track specific algorithms, such as:
+- Regression
+- Classification
+
+## Reference
+> "Field of study that gives computers the ability to learn without being explicitly programmed" - Arthur Samuel

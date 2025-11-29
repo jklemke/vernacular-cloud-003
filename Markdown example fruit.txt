@@ -1,0 +1,19 @@
+---
+id: concept:apple
+type: concept
+---
+
+# Apple
+
+A sweet, edible fruit produced by an apple tree.
+
+## Broader
+- [[Fruit]]
+
+## Narrower
+- [[Granny Smith Apple]]
+- [[Honeycrisp Apple]]
+
+## Related
+- [[Orchard]]
+- [[Cider]]

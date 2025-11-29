@@ -1,0 +1,7 @@
+# [[survival]]
+# [[thriving]]
+# [[reality]]
+# [[meaning]]
+# [[truth]]
+# [[beauty]]
+# [[legitimacy]]
