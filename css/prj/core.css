@@ -1,7 +1,7 @@
 /* core.css styles the general page layout and manages the inclusion of additional css files
     ========================================================================== */
-    @import url("header.css");
-    @import url("list.css");
+    @import url("headings.css");
+    @import url("list-para-nav.css");
     @import url("table.css"); 
     @import url("media.css");
     @import url("font.css");
@@ -9,7 +9,7 @@
 
     /* Color CSS, uncomment if desired for debugging
         ========================================================================== */
-    /*@import url("debug-color.css");/
+    /* @import url("debug-color.css"); */
         
     /* Generic Elements 
         ========================================================================== */
@@ -38,33 +38,19 @@
     /* Core Structure (margin and padding for body, header, main, aside, footer, section, article) 
    ========================================================================== */
 
-    main {display:inline-block; width: 73%; margin: 0 0 0 1%; border-right: thin dotted black; padding: 0 0 0 0;}
-    aside {display:inline-block; width: 22%; float:right;}
+    main {display:inline-block; width: 70%; margin: 0% 0% 0% 1%; padding: 0% 0% 0% 0%; border-right: thin dotted black; }
+    aside {display:inline-block; width: 25%; float:right;}
 
-    body > header {margin: 0% 0% 2% 0%; }
-    body > header > h1  {margin: 0% 0% 0% 2%; }
-    body > header > nav  > ul {margin:0% 0% 0% 0%; }
+    body > header {margin: 0% 0% 0% 0%; }
 
-    main { margin: 0% 1% 1% 1% ;  padding: 1% 1% 1% 1%; }
-    main p { margin: 0% 0% 1% 1% ;  padding: 0% 0% 0% 0%; }
-
-    section { margin: 0% 0% 1% 1% ;  padding: 0% 0% 0% 0%; }
+    section { margin: 0% 0% 1% 2% ;  padding: 0% 0% 0% 1%; }
     section > header { margin: 0% 0% 0% 0% ;  padding: 0% 0% 0% 0%; }
-    section > header > h1 { margin: 0% 0% 0% 0% ;  padding: 0% 0% 0% 0%; }
-    section > header > nav { margin: 0% 0% 0% 0% ;  padding: 0% 0% 0% 0%; }
-    section > header > nav > ul { margin: 0% 0% 0% 0% ;  padding: 0% 0% 0% 0%; }
     section  > table { margin: 1% 0% 0% 1% ;  padding: 0% 0% 1% 0%; }
 
-    article > header  {margin-left:1%; }
+    article > header { margin: 0% 0% 0% 0% ;  padding: 0% 0% 0% 0%; }
     article > * { margin: 0% 0% 0% 1% ;  padding: 0% 0% 0.5% 0%; }
 
     aside header {margin: 0 0 0 0; padding: 0 0 0 0; }
-    aside header h1 {margin: 0 0 0 0; padding: 0 0 0 0; }
-    aside header nav {margin: 0 0 0 0; padding: 0 0 0 0; }
-    aside header nav ul {margin: 0 0 0 0; padding: 0 0 0 0; }
-    aside ul.asidelist {margin: 1% 0 0 0%; padding: 0 0 0 0; list-style-type: none;}
-    aside ul.asidelist li {margin: 0 0 0 1%; padding: 0 0 0 0;}
 
+    body > footer {width: 95%; height: 5%;  margin: 0 0 0 0; display:grid; place-items: center; }
     body > footer  > *  {margin-left:2%; margin-top: 0; }
-    body > footer > h1  {margin-bottom:0%; }
-    body > footer > nav  > ul {margin-top:0%; }

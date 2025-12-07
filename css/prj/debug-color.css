@@ -2,33 +2,49 @@
    it easier to identify particular elements of the page layout. 
    ========================================================================== */
 
+/* uncomment to make it easier to see margins and padding */
+/* body > header, body > main, h1, h2, li, nav { border: 1px solid red; } */
 
-   body {background-color: blue;}
-   body > header {background-color: cornflowerblue;}
-   body > header > h1 {background-color: gray;}
-   body > header > nav {background-color: yellowgreen;}
+body {background-color: blue;}
+body > header {background-color: cornflowerblue;}
+body > header > h1 {background-color: gray;}
+body > header > nav {background-color: yellowgreen;}
 
-   body > header > h1  { background-color: gray; }
-   body main { background-color: springgreen; }
-   body main p { background-color: gold; }
+body > header > h1  { background-color: gray; }
+body > header > p  { background-color: PapayaWhip; }
 
-   body section { background-color: lightsalmon; }
-   body section  h1,h2,h3,h4,h5,h6 { background-color: gray; }
+body main { background-color: springgreen; }
+body main h1 { background-color: lightpink; }
+body main p { background-color: gold; }
 
-   body article { background-color: bisque; }
-   body article  h1,h2,h3,h4,h5,h6  { background-color: gray; }
-   
-   table { background-color: red; }
-   table tr { background-color: blueviolet; }
-   table tr th { background-color: lightcoral; }
-   table tr td { background-color: orchid; }
+body > main ul { background-color: skyblue; }
+body > main ul li { background-color: lemonchiffon; }
 
-   body aside {background-color: cornflowerblue; }
-   body aside header {background-color: blueviolet; }
-   body aside h1  { background-color: gray; }
-   body aside nav  { background-color:yellowgreen; }
-   body aside ul.asidelist  { background-color: lightsalmon; }
+body section { background-color: lightsalmon; }
+body section  h1,h2,h3,h4,h5,h6 { background-color: gray; }
 
-   body > footer {background-color: cornflowerblue; }
-   body > footer small {background-color: lightsalmon; }
-   
+body article { background-color: bisque; }
+body article  h1,h2,h3,h4,h5,h6  { background-color: gray; }
+
+table { background-color: red; }
+table tr { background-color: blueviolet; }
+table tr th { background-color: lightcoral; }
+table tr td { background-color: orchid; }
+
+body aside {background-color: cornflowerblue; }
+body aside header {background-color: blueviolet; }
+body aside h1 { background-color: fuchsia; }
+body aside h2 { background-color: MediumPurple; }
+/* body aside p { background-color: gold; } */
+body > aside > h + p { background-color: PaleGreen;  }
+body > aside > h2 + p { background-color: MediumSeaGreen;  }
+
+body aside nav  { background-color:yellowgreen; }
+body aside ul.asidelist  { background-color: lightsalmon; }
+
+body aside ul { background-color: skyblue; }
+body aside ul li { background-color: lemonchiffon; }
+
+body > footer {background-color: cornflowerblue; }
+body > footer small {background-color: lightsalmon; }
+

@@ -1,0 +1,58 @@
+/* headings.css centralizes all heading styles
+========================================================================== */
+body > header > h1  {margin: 0% 0% 0% 2%; }
+
+body > header > h1 {font-size:210%; font-weight:normal; font-style: normal; color:navy;}
+body > header > h2 {font-size:146%; font-weight:normal; font-style: normal; color:midnightblue;}
+body > header > h3 {font-size:122%; font-weight:normal; font-style: normal; color:darkslateblue;}
+body > header > h4 {font-size:108%; font-weight:normal; font-style: normal; color: darkslateblue;}
+body > header > h5 {font-size:100%; font-weight:bold; font-style: normal; color:darkslateblue;}
+body > header > h6 {font-size:100%; font-weight:normal; font-style: normal; color:darkslateblue;}
+
+body > main > h1 {font-size:160%; font-weight:normal; font-style: normal; color:navy; line-height: 1.2em;}
+body > main > h2 {font-size:122%; font-weight:normal; font-style: normal; color:midnightblue;}
+body > main > h3 {font-size:108%; font-weight:normal; font-style: normal; color:darkslateblue;}
+body > main > h4 {font-size:100%; font-weight:normal; font-style: normal; color: darkslateblue;}
+body > main > h5 {font-size:100%; font-weight:bold; font-style: normal; color:darkslateblue;}
+body > main > h6 {font-size:100%; font-weight:normal; font-style: normal; color:darkslateblue;}
+
+body > footer > h1    {margin: 0% 0% 0% 2%; }
+
+body > main h1 { margin: 0% 0% 0% 2% ;  padding: 0% 0% 0% 0%; }
+body > main h2 { margin: 0% 0% 0% 3% ;  padding: 0% 0% 0% 0%; }
+
+body > main > section > header > h1 { margin: 0% 0% 0% 0% ;  padding: 0% 0% 0% 0%; }
+body > main > section > header > nav { margin: 0% 0% 0% 0% ;  padding: 0% 0% 0% 0%; }
+body > main > section > header > nav > ul { margin: 0% 0% 0% 0% ;  padding: 0% 0% 0% 0%; }
+
+body > main > section h1 {font-size:146%; font-weight:normal; font-style: normal; color:darkslateblue;}
+body > main > section h2 {font-size:122%; font-weight:normal; font-style: normal; color:darkslateblue;}
+body > main > section h3 {font-size:108%; font-weight:normal; font-style: normal; color:darkslateblue;}
+body > main > section h4 {font-size:100%; font-weight:normal; font-style: normal; color: darkslateblue;}
+body > main > section h5 {font-size:100%; font-weight:bold; font-style: normal; color:darkslateblue;}
+body > main > section h6 {font-size:100%; font-weight:normal; font-style: normal; color:darkslateblue;}
+
+aside > header > h1 {font-size:146%; font-weight:normal; font-style: normal; color:darkslateblue;}
+aside > header > h2 {font-size:122%; font-weight:normal; font-style: normal; color:darkslateblue;}
+aside > header > h3 {font-size:108%; font-weight:normal; font-style: normal; color:darkslateblue;}
+aside > header > h4 {font-size:100%; font-weight:normal; font-style: normal; color: darkslateblue;}
+aside > header > h5 {font-size:100%; font-weight:bold; font-style: normal; color:darkslateblue;}
+aside > header > h6 {font-size:100%; font-weight:normal; font-style: normal; color:darkslateblue;}
+
+aside h1 { margin: 0% 0% 0% 0% ;  padding: 0% 0% 0% 0%; }
+aside h2 { margin: 0% 0% 0% 0% ;  padding: 0% 0% 0% 0%; }
+
+aside > h1 {font-size:146%; font-weight:normal; font-style: normal; color:darkslateblue;}
+aside > h2 {font-size:122%; font-weight:normal; font-style: normal; color:darkslateblue;}
+aside > h3 {font-size:108%; font-weight:normal; font-style: normal; color:darkslateblue;}
+aside > h4 {font-size:100%; font-weight:normal; font-style: normal; color: darkslateblue;}
+aside > h5 {font-size:100%; font-weight:bold; font-style: normal; color:darkslateblue;}
+aside > h6 {font-size:100%; font-weight:normal; font-style: normal; color:darkslateblue;}
+
+article h1 {font-size:146%; font-weight:normal; font-style: normal; color:darkslateblue;}
+article h2 {font-size:122%; font-weight:normal; font-style: normal; color:darkslateblue;}
+article h3 {font-size:108%; font-weight:normal; font-style: normal; color:darkslateblue;}
+article h4 {font-size:100%; font-weight:normal; font-style: normal; color: darkslateblue;}
+article h5 {font-size:100%; font-weight:bold; font-style: normal; color:darkslateblue;}
+article h6 {font-size:100%; font-weight:normal; font-style: normal; color:darkslateblue;}
+

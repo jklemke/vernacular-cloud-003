@@ -1,4 +1,7 @@
 body {font-family: 'Sumana', Georgia, 'Times New Roman', Times, serif;}
-h1  {font-family: 'Otomanopee One','Palanquin Dark', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif}
-h2, h3, h4, h5, h6 {font-family: 'Palanquin Dark', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif}
+header > h1  {font-family: 'Otomanopee One','Palanquin Dark', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif}
+main > h1 {font-family: 'Palanquin Dark', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif}
+main > h2, h3, h4, h5, h6 {font-family: 'Palanquin', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif}
+aside > h1 {font-family: 'Palanquin Dark', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif}
+aside > h2, h3, h4, h5, h6 {font-family: 'Palanquin', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif}
 td, th {font-family: 'GoMonoRegular', 'Source Code Pro', 'Lucida Console',  'Courier New', Courier, monospace}

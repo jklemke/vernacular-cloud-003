@@ -1,7 +1,0 @@
-# [[time]]
-# [[space]]
-# [[pattern]]
-# [[isolate]]
-# [[aggregate]]
-# [[void]]
-# [[self]]

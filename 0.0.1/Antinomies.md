@@ -1,7 +1,0 @@
-# [[|Universal Beginning]]
-# [[Universal Description]]
-# [[Universal Granularity]]
-# [[Universal Justice]]
-# [[Universal Necessity]]
-# [[Universal Perspective]]
-# [[Universal Syntax]]
