@@ -20,6 +20,10 @@ body > footer > h1    {margin: 0% 0% 0% 2%; }
 
 body > main h1 { margin: 0% 0% 0% 2% ;  padding: 0% 0% 0% 0%; }
 body > main h2 { margin: 0% 0% 0% 3% ;  padding: 0% 0% 0% 0%; }
+body > main h3 { margin: 0% 0% 0% 4% ;  padding: 0% 0% 0% 0%; }
+body > main h4 { margin: 0% 0% 0% 5% ;  padding: 0% 0% 0% 0%; }
+body > main h5 { margin: 0% 0% 0% 5% ;  padding: 0% 0% 0% 0%; }
+body > main h6 { margin: 0% 0% 0% 5% ;  padding: 0% 0% 0% 0%; }
 
 body > main > section > header > h1 { margin: 0% 0% 0% 0% ;  padding: 0% 0% 0% 0%; }
 body > main > section > header > nav { margin: 0% 0% 0% 0% ;  padding: 0% 0% 0% 0%; }

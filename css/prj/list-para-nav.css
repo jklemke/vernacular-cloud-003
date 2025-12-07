@@ -26,3 +26,37 @@ body > aside > h2 + p { margin: 0% 4% 0% 2% ;  padding: 0% 0% 0.5% 0%; line-heig
 
 aside > header > nav > ul.navlist li {display: inline; margin-right: 1em; font-size: 90%; }
 
+/* --- Vernacular Cloud Links (Internal) --- */
+a.internal-link {
+    text-decoration: none;
+    font-weight: 500;
+    color: #2e5cb8; /* Adjust to match your theme color */
+}
+
+/* The Section Symbol appears BEFORE the link */
+a.internal-link::before {
+    content: "\00A7 "; /* § followed by a space */
+    font-size: 0.8em;   /* Slightly smaller to act as a marker */
+    opacity: 0.6;       /* Subtle, not screaming */
+    margin-right: 1px;  /* Tiny spacing */
+    color: #555;        /* Neutral color so it doesn't bleed into the link text */
+}
+
+a.internal-link:hover {
+    text-decoration: underline;
+}
+
+/* --- External Links (Reference) --- */
+a.external-link {
+    text-decoration: underline;
+    text-decoration-style: dotted; 
+    color: #444; 
+}
+
+/* The Arrow appears AFTER the link */
+a.external-link::after {
+    content: " \2197"; /* Space followed by ↗ */
+    font-size: 0.7em;
+    opacity: 0.6;
+    margin-left: 2px;
+}

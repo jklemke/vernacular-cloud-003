@@ -1,0 +1,6 @@
+git remote set-url origin https://jklemke@github.com/jklemke/vernacular-cloud-003.git
+git remote set-url origin https://jklemke@github.com/jklemke/obsidian_to_jsonld.git
+
+git branch -M main 
+git remote -v 
+git remote add origin https://github.com/jklemke/obsidian_to_jsonld.git
