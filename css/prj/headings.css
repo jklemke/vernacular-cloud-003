@@ -36,6 +36,27 @@ body > main > section h4 {font-size:100%; font-weight:normal; font-style: normal
 body > main > section h5 {font-size:100%; font-weight:bold; font-style: normal; color:darkslateblue;}
 body > main > section h6 {font-size:100%; font-weight:normal; font-style: normal; color:darkslateblue;}
 
+body > section h1 { margin: 0% 0% 0% 2% ;  padding: 0% 0% 0% 0%; }
+body > section h2 { margin: 0% 0% 0% 3% ;  padding: 0% 0% 0% 0%; }
+body > section h3 { margin: 0% 0% 0% 4% ;  padding: 0% 0% 0% 0%; }
+body > section h4 { margin: 0% 0% 0% 5% ;  padding: 0% 0% 0% 0%; }
+body > section h5 { margin: 0% 0% 0% 5% ;  padding: 0% 0% 0% 0%; }
+body > section h6 { margin: 0% 0% 0% 5% ;  padding: 0% 0% 0% 0%; }
+
+div.stacked-subsection section h1 {font-size:146%; font-weight:normal; font-style: normal; color:darkslateblue;}
+div.stacked-subsection section h2 {font-size:122%; font-weight:normal; font-style: normal; color:darkslateblue;}
+div.stacked-subsection section h3 {font-size:108%; font-weight:normal; font-style: normal; color:darkslateblue;}
+div.stacked-subsection section h4 {font-size:100%; font-weight:normal; font-style: normal; color: darkslateblue;}
+div.stacked-subsection section h5 {font-size:100%; font-weight:bold; font-style: normal; color:darkslateblue;}
+div.stacked-subsection section h6 {font-size:100%; font-weight:normal; font-style: normal; color:darkslateblue;}
+
+div.stacked-subsection h1 { margin: 0% 0% 0% 0% ;  padding: 0% 0% 0% 0%; }
+div.stacked-subsection h2 { margin: 0% 0% 0% 0% ;  padding: 0% 0% 0% 0%; }
+div.stacked-subsection h3 { margin: 0% 0% 0% 0% ;  padding: 0% 0% 0% 0%; }
+div.stacked-subsection h4 { margin: 0% 0% 0% 0% ;  padding: 0% 0% 0% 0%; }
+div.stacked-subsection h5 { margin: 0% 0% 0% 0% ;  padding: 0% 0% 0% 0%; }
+div.stacked-subsection h6 { margin: 0% 0% 0% 0% ;  padding: 0% 0% 0% 0%; }
+
 aside > header > h1 {font-size:146%; font-weight:normal; font-style: normal; color:darkslateblue;}
 aside > header > h2 {font-size:122%; font-weight:normal; font-style: normal; color:darkslateblue;}
 aside > header > h3 {font-size:108%; font-weight:normal; font-style: normal; color:darkslateblue;}

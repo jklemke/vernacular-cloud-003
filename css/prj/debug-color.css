@@ -21,7 +21,9 @@ body > main ul { background-color: skyblue; }
 body > main ul li { background-color: lemonchiffon; }
 
 body section { background-color: lightsalmon; }
-body section  h1,h2,h3,h4,h5,h6 { background-color: gray; }
+body section  h1,h2,h3,h4,h5,h6 { background-color: thistle; }
+
+div.stacked-subsection section { background-color: MediumPurple; } 
 
 body article { background-color: bisque; }
 body article  h1,h2,h3,h4,h5,h6  { background-color: gray; }
@@ -35,7 +37,6 @@ body aside {background-color: cornflowerblue; }
 body aside header {background-color: blueviolet; }
 body aside h1 { background-color: fuchsia; }
 body aside h2 { background-color: MediumPurple; }
-/* body aside p { background-color: gold; } */
 body > aside > h + p { background-color: PaleGreen;  }
 body > aside > h2 + p { background-color: MediumSeaGreen;  }
 
@@ -46,5 +47,5 @@ body aside ul { background-color: skyblue; }
 body aside ul li { background-color: lemonchiffon; }
 
 body > footer {background-color: cornflowerblue; }
-body > footer small {background-color: lightsalmon; }
+body > footer small {background-color: indianred; }
 
