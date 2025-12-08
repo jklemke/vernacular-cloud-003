@@ -23,7 +23,7 @@
     a {color: darkblue; text-decoration: none; }
     a:focus, a:hover {text-decoration:underline; }
     /* a:focus{ background-color: khaki; } */
-    a:visited {color: mediumblue; }
+    a:visited {color: darkblue; }
 
     cite{display:block; text-align:right; padding-top: 10px; }
 

@@ -5,8 +5,8 @@ body > header > nav  > ul {margin:0% 0% 0% 2%; padding: 0% 0% 0.8% 1%; line-heig
 body > header > nav > ul.navlist li {display: inline; margin-right: 1em; }
 
 body > header p {margin: 0% 0% 0% 2%; padding: 0% 0% 0% 1%; line-height: 1.2em; }
-body > header > h1 + p {margin: 0% 0% 0% 2%; padding: 0% 0% 0.5% 1%; }
-body > header > h2 + p {margin: 0% 0% 0% 3%; padding: 0% 0% 0.5% 1%; }
+body > header > h1 p {margin: 0% 0% 0% 2%; padding: 0% 0% 0.5% 1%; }
+body > header > h2 p {margin: 0% 0% 0% 3%; padding: 0% 0% 0.5% 1%; }
 
 body > main ul {margin: 0% 0% 0% 3%; padding: 0% 0% 0.5% 0%;  list-style-type: none;}
 body > main ul li {margin: 0% 0% 0% 1%; padding: 0% 0% 0.5% 0%; line-height: 1.2em;}
@@ -21,8 +21,7 @@ body > aside header nav ul {margin: 0 0 0 0; padding: 0 0 0 0; }
 body > aside ul {margin: 0% 1% 0% 0%; padding: 0% 0% 0.5% 0%; list-style-type: none;}
 body > aside ul li {margin: 0% 4% 0% 2%; padding: 0% 0% 0.5% 0%; line-height: 1.2em;}
 
-body > aside > h1 + p { margin: 0% 1% 0% 0% ;  padding: 0% 0% 0% 0%; line-height: 1.2em; }
-body > aside > h2 + p { margin: 0% 4% 0% 2% ;  padding: 0% 0% 0.5% 0%; line-height: 1.2em;}
+body > aside p { margin: 0% 4% 0% 2% ;  padding: 0% 0% 0.5% 0%; line-height: 1.2em;}
 
 aside > header > nav > ul.navlist li {display: inline; margin-right: 1em; font-size: 90%; }
 
@@ -37,8 +36,9 @@ div.stacked-subsection section p { margin: 0% 0% 0% 0% ;  padding: 0% 0% 0.5% 0%
 a.internal-link {
     text-decoration: none;
     font-weight: 500;
-    color: #2e5cb8; /* Adjust to match your theme color */
+    color: darkblue; /* Adjust to match your theme color */
 }
+a.internal-link:visited {color: darkblue; }
 
 /* The Section Symbol appears BEFORE the link */
 a.internal-link::before {
