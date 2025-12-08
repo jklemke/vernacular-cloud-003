@@ -9,7 +9,7 @@
 
     /* Color CSS, uncomment if desired for debugging
         ========================================================================== */
-    @import url("debug-color.css"); 
+    /* @import url("debug-color.css"); */
         
     /* Generic Elements 
         ========================================================================== */
@@ -20,25 +20,25 @@
     code{color:#0B8C8F;}
     .important a{font-weight:bold;}
 
-    a {color: blue; text-decoration: none}
-    a:focus, a:hover {text-decoration:underline;}
-    a:focus{background-color: khaki;}
-    a:visited {color:saddlebrown}
+    a {color: darkblue; text-decoration: none; }
+    a:focus, a:hover {text-decoration:underline; }
+    /* a:focus{ background-color: khaki; } */
+    a:visited {color: mediumblue; }
 
-    cite{display:block; text-align:right; padding-top: 10px;}
+    cite{display:block; text-align:right; padding-top: 10px; }
 
-    .callout{font-size:189%;color:#999999; font-style:italic;}
-    .callout cite{display:block; text-align:right;padding-top: 30px; font-size:69.25%;}
-    .callout span.quot{font-size: 500%; vertical-align: sub; color:#e2e2e2; line-height:25px; font-weight:bold;}
-    .callout span.quotLast{vertical-align:middle;}
-    .detail{color: #777; font-size:11px;display:block;}
+    .callout{font-size:189%;color:#999999; font-style:italic; }
+    .callout cite{display:block; text-align:right;padding-top: 30px; font-size:69.25%; }
+    .callout span.quot{font-size: 500%; vertical-align: sub; color:#e2e2e2; line-height:25px; font-weight:bold; } 
+    .callout span.quotLast{vertical-align:middle; }
+    .detail{color: #777; font-size:11px;display:block; }
 
-    .icon{margin-right: 5px;}
+    .icon{margin-right: 5px; }
 
     /* Core Structure (margin and padding for body, header, main, aside, footer, section, article) 
    ========================================================================== */
 
-    main {display:inline-block; width: 70%; margin: 0% 0% 0% 1%; padding: 0% 0% 0% 0%; border-right: thin dotted black; }
+    main {display:inline-block; width: 73%; margin: 0% 0% 0% 1%; padding: 0% 0% 0% 0%; border-right: thin dotted black; }
     aside {display:inline-block; width: 25%; float:right;}
 
     body > header {margin: 0% 0% 0% 0%; }
