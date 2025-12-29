@@ -11,7 +11,7 @@ body > header > h2 p {margin: 0% 0% 0% 3%; padding: 0% 0% 0.5% 1%; }
 body > main ul {margin: 0% 0% 0% 3%; padding: 0% 0% 0.5% 0%;  list-style-type: none;}
 body > main ul li {margin: 0% 0% 0% 1%; padding: 0% 0% 0.5% 0%; line-height: 1.2em;}
 
-body > main p { margin: 0% 0% 0% 2% ;  padding: 0% 0% 0.5% 1%; line-height: 1.4em;}
+body > main p { margin: 0% 0% 0% 2% ;  padding: 0% 0% 0.5% 1%; line-height: 1.4em; overflow-wrap: break-word; }
 body > main > h1 + p { margin: 0% 0% 0% 2% ;  padding: 0% 0% 0.5% 1%; }
 body > main > h2 + p { margin: 0% 0% 0% 3% ;  padding: 0% 0% 0.5% 1%; }
 
@@ -21,13 +21,13 @@ body > aside header nav ul {margin: 0 0 0 0; padding: 0 0 0 0; }
 body > aside ul {margin: 0% 1% 0% 0%; padding: 0% 0% 0.5% 0%; list-style-type: none;}
 body > aside ul li {margin: 0% 4% 0% 2%; padding: 0% 0% 0.5% 0%; line-height: 1.2em;}
 
-body > aside p { margin: 0% 4% 0% 2% ;  padding: 0% 0% 0.5% 0%; line-height: 1.2em;}
+body > aside p { margin: 0% 4% 0% 2% ;  padding: 0% 0% 0.5% 0%; line-height: 1.2em;  overflow-wrap: break-word; }
 
 aside > header > nav > ul.navlist li {display: inline; margin-right: 1em; font-size: 90%; }
 
 body > main > section h1 { line-height: 1.2em;  }
-body > main > section h1 + p { margin: 0% 0% 0% 2% ;  padding: 0% 0% 0.5% 1%; }
-body > main > section h2 + p { margin: 0% 0% 0% 3% ;  padding: 0% 0% 0.5% 1%; }
+body > main > section h1 + p { margin: 0% 0% 0% 2% ;  padding: 0% 0% 0.5% 1%;  overflow-wrap: break-word; }
+body > main > section h2 + p { margin: 0% 0% 0% 3% ;  padding: 0% 0% 0.5% 1%;  overflow-wrap: break-word; }
 
 div.stacked-subsection section h1 { line-height: 1.2em;  }
 div.stacked-subsection section p { margin: 0% 0% 0% 0% ;  padding: 0% 0% 0.5% 0%; }
