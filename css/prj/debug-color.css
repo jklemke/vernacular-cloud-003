@@ -23,7 +23,8 @@ body > main ul li { background-color: lemonchiffon; }
 body section { background-color: lightsalmon; }
 body section  h1,h2,h3,h4,h5,h6 { background-color: thistle; }
 
-div.stacked-subsection section { background-color: MediumPurple; } 
+div.stacked-subsection { background-color: cornflowerblue; } 
+div.stacked-subsection section { background-color: yellowgreen; } 
 
 body article { background-color: bisque; }
 body article  h1,h2,h3,h4,h5,h6  { background-color: gray; }

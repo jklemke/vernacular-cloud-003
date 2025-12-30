@@ -7,7 +7,7 @@
 
     /* Color CSS, uncomment if desired for debugging
         ========================================================================== */
-    @import url("debug-color.css"); 
+    /* @import url("debug-color.css"); */
         
     /* Generic Elements 
         ========================================================================== */
@@ -46,7 +46,7 @@
     section > header { margin: 0% 0% 0% 0% ;  padding: 0% 0% 0% 0%; }
     section > table { margin: 1% 0% 0% 1% ;  padding: 0% 0% 1% 0%; }
 
-    main div.stacked-subsection { width: 30%; float: left;  margin: 0% 0% 0% 0% ;  padding: 0% 0% 0% 0%; } 
+    main div.stacked-subsection { width: 29%; float: left;  margin: 0% 0% 0% 0% ;  padding: 0% 1% 0% 0%; } 
     main div.stacked-subsection section { width: 320%; float: left; } 
 
     article > header { margin: 0% 0% 0% 0% ;  padding: 0% 0% 0% 0%; }
