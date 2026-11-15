@@ -1,4 +1,5 @@
-body {font-family: 'Sumana', Georgia, 'Times New Roman', Times, serif;}
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+body {font-family: 'Sumana', 'Gentium Book Plus', Georgia, 'Times New Roman', Times, serif;}
 body > header > h1  {font-family: 'Otomanopee One','Palanquin Dark', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif}
 main > h1 {font-family: 'Palanquin Dark', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif}
 main > h2, h3, h4, h5, h6 {font-family: 'Palanquin', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif}
