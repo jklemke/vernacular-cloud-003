@@ -11,7 +11,7 @@ table
 
 table, td, th
 {
-    border: 1px solid gainsboro;
+    border: 1px solid var(--vc-table-border);
     margin-right: 1%;
 }
 

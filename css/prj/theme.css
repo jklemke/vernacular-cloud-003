@@ -1,0 +1,47 @@
+/* theme.css: the colour theme as CSS variables, light and dark (2026-11-15).
+   Every colour in headings.css, core.css, list-para-nav.css and table.css reads from here.
+   Light is "cool mist" (option C); dark follows the reader's system setting.
+   Declaring color-scheme also stops Chrome's Auto Dark Mode from inverting the page by formula.
+   graszp.com shares this file and overrides the variables in graszp.css.
+   ========================================================================== */
+:root {
+    color-scheme: light dark;
+
+    --vc-paper:        #f4f5f8;   /* page background */
+    --vc-ink:          #1d1d1f;   /* body text */
+    --vc-h1:           #14245c;   /* site title, page title (was navy) */
+    --vc-h2:           #1f2f6b;   /* second level (was midnightblue) */
+    --vc-h3:           #463c8a;   /* third level and below, aside, sections (was darkslateblue) */
+    --vc-link:         #1c3f94;   /* links (was darkblue) */
+    --vc-code:         #0a7f82;
+    --vc-muted:        #555;      /* quotation credits, the § marker */
+    --vc-subtle:       #444;      /* external links */
+    --vc-faint:        #777;      /* .detail */
+    --vc-callout:      #999;      /* .callout text */
+    --vc-rule:         #dfe1e8;   /* hr, big callout quote marks */
+    --vc-quote-border: #d3d6e2;   /* blockquote left rule */
+    --vc-table-border: #d9dbe3;   /* was gainsboro */
+    --vc-divider:      #1d1d1f;   /* dotted line between main and aside */
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --vc-paper:        #1b1d24;
+        --vc-ink:          #dcdcd6;
+        --vc-h1:           #b7c4f0;
+        --vc-h2:           #a5b3e2;
+        --vc-h3:           #b3aee0;
+        --vc-link:         #8fb2ff;
+        --vc-code:         #62c7c9;
+        --vc-muted:        #a3a3a0;
+        --vc-subtle:       #b5b5b0;
+        --vc-faint:        #8e8e8a;
+        --vc-callout:      #8a8a86;
+        --vc-rule:         #353948;
+        --vc-quote-border: #3e4357;
+        --vc-table-border: #3a3e4c;
+        --vc-divider:      #6b7080;
+    }
+}
+
+body { background-color: var(--vc-paper); color: var(--vc-ink); }
