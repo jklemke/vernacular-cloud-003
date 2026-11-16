@@ -67,3 +67,19 @@ a.external-link::after {
     opacity: 0.6;
     margin-left: 2px;
 }
+/* --- The Magisteria beside The Categories (index, 2026-11-15) ---
+   templates/index.html renders The Magisteria with spaced=true: each magisterium is
+   followed by a blank row, so it lines up with its two conceptual devices in the next
+   column. A faint dotted leader runs from the name to the column edge, and a hairline
+   vertical bar spans the two rows, beside the pair. */
+section p.spaced-head, section p.spaced-gap { position: relative; margin-right: 0; padding-right: 10px; }
+section p.spaced-head { display: flex; align-items: baseline; gap: 0.4em; }
+section p.spaced-head::after { content: ""; flex: 1; border-bottom: 1px dotted var(--vc-quote-border); }
+section p.spaced-head::before, section p.spaced-gap::before {
+    content: ""; position: absolute; right: 0; width: 0;
+    border-right: 1px solid var(--vc-quote-border);
+}
+section p.spaced-head::before { top: 0.2em; bottom: 0; }
+section p.spaced-gap::before  { top: 0; bottom: 0.2em; }
+/* the blank row carries an invisible § like the link rows, so both rows are the same height */
+section p.spaced-gap::after { content: "\00A7"; font-size: 0.8em; visibility: hidden; }
